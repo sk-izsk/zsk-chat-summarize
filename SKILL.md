@@ -1,16 +1,8 @@
 ***
 
-name: zsk-chat-summarize
-description: >
-Summarizes the current conversation into a compact, copy-pasteable "resume prompt" so the user can
-start a fresh chat and continue exactly where they left off — with no context loss. Trigger when
-the user says /zsk-chat-summarize, "summarize this chat", "give me a resume prompt", "I want to
-start a new chat", "copy this context to a new chat", "chat is getting long", or anything that
-implies continuing a conversation in a new session. Also trigger proactively when the user seems
-to be wrapping up a long working session (e.g. "ok let's stop here for now", "I'll continue
-later"). Always use this skill — never just summarize in a generic paragraph when this is what
-the user needs.
----------------
+name: zsk-chat-summarize \
+description: Summarizes the current conversation into a compact, copy-pasteable resume prompt so the user can start a fresh chat and continue exactly where they left off. Trigger on /zsk-chat-summarize, "summarize this chat", "give me a resume prompt", "start a new chat", or "chat is getting long". ---
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # zsk-chat-summarize
 
